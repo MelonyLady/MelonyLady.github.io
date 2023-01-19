@@ -6,6 +6,7 @@
     --lGreen: #a7c8b5;
     --midGreen: #87ab96;
     --dGreen: #42544a;
+    --hoverGreen: #67a681;
 }
 
 body {
@@ -15,10 +16,31 @@ body {
     background-image: url(images/light-theme-bg.png);
 }
 
-li {
-    list-style: circle;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--midGreen);
 }
 
-.list {
-    list-style: square;
+li {
+    float:right;
+    border-right: 1px solid var(--purple);
+}
+
+li a {
+    display:block;
+    color: var(--black);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--hoverGreen) ;
+}
+
+.active {
+    background-color: var(--lGreen);
 }
