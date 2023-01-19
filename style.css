@@ -21,12 +21,15 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--midGreen);
+    background-color: var(--purple);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
     float:right;
-    border-right: 1px solid var(--purple);
+    border-right: 1px solid var(--dGreen);
 }
 
 li a {
@@ -38,7 +41,7 @@ li a {
 }
 
 li a:hover {
-    background-color: var(--hoverGreen) ;
+    background-color: var(--midGreen) ;
 }
 
 .active {
