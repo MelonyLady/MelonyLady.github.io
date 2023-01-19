@@ -1,5 +1,5 @@
 :root {
-    --green: #00FF00;
+    --pink: #e9c6d8;
     --white: #FFFFFF;
     --black: #000000;
 }
@@ -8,6 +8,7 @@ body {
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
+    background-image: url(images/light-theme-bg.png);
 }
 
 li {
@@ -19,7 +20,7 @@ li {
 }
 
 .light-theme {
-    --bg:var(--green);
+    --bg:var(--pink);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
