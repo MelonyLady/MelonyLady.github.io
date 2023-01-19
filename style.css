@@ -9,6 +9,16 @@
     --hoverGreen: #67a681;
 }
 
+.header {
+    background-color: var(--purple);
+    text-align: left;
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 body {
     background: var(--pink);
     color: var(--black);
@@ -16,20 +26,38 @@ body {
     background-image: url(images/light-theme-bg.png);
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--purple);
+    background-color: var(--midGreen);
     position: fixed;
-    top: 0;
-    width: 100%;
+    right: 0;
+    top: 10;
+    width: 20%;
 }
 
 li {
-    float:right;
-    border-right: 1px solid var(--dGreen);
+    float: right;
+    border-left: 1px solid var(--dGreen);
 }
 
 li a {
@@ -41,7 +69,7 @@ li a {
 }
 
 li a:hover {
-    background-color: var(--midGreen) ;
+    background-color: var(--hoverGreen) ;
 }
 
 .active {
