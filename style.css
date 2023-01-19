@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 :root {
     --pink: #e9c6d8;
     --white: #FFFFFF;
@@ -13,10 +15,12 @@
     background-color: var(--purple);
     text-align: left;
     padding: 30px;
-    
+    color: var(--dGreen);
 }
 .header h1{
     font-size: 50px;
+    font-family: satisfy;
+    
 }
 
 body {
