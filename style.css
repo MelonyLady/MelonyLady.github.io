@@ -10,18 +10,12 @@ body {
     font-family: helvetica;
 }
 
-ul {
-}
-
 li {
     list-style: circle;
 }
 
 .list {
     list-style: square;
-}
-
-#msg {
 }
 
 .light-theme {
