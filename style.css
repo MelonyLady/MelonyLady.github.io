@@ -14,13 +14,17 @@
 .header {
     background-color: var(--purple);
     text-align: left;
-    padding: 30px;
+    padding: 10px;
     color: var(--dGreen);
 }
 .header h1{
-    font-size: 50px;
+    font-size: 60px;
     font-family: satisfy;
     
+}
+
+.site-identity {
+    float: left;
 }
 
 body {
