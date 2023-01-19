@@ -2,11 +2,15 @@
     --pink: #e9c6d8;
     --white: #FFFFFF;
     --black: #000000;
+    --purple: #a0b7d8;
+    --lGreen: #a7c8b5;
+    --midGreen: #87ab96;
+    --dGreen: #42544a;
 }
 
 body {
-    background: var(--bg);
-    color: var(--fontColor);
+    background: var(--pink);
+    color: var(--black);
     font-family: helvetica;
     background-image: url(images/light-theme-bg.png);
 }
@@ -19,19 +23,6 @@ li {
     list-style: square;
 }
 
-.light-theme {
-    --bg:var(--pink);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-}
-
-.dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
-}
 
 .btn {
     position: absolute;
@@ -41,6 +32,6 @@ li {
     width: 50px;
     border-radius: 50%;
     border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+    color: var(--black);
+    background-color: var(--midGreen);
 }
