@@ -1,45 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 :root {
-    --green: #00FF00;
+    --pink: #e9c6d8;
     --white: #FFFFFF;
     --black: #000000;
+    --purple: #a0b7d8;
+    --lGreen: #a7c8b5;
+    --midGreen: #87ab96;
+    --dGreen: #42544a;
+    --hoverGreen: #67a681;
+}
+
+.header {
+    background-color: var(--purple);
+    text-align: left;
+    padding: 10px;
+    color: var(--dGreen);
+}
+.header h1{
+    font-size: 60px;
+    font-family: satisfy;
+    
+}
+
+.site-identity {
+    float: left;
 }
 
 body {
-    background: var(--bg);
-    color: var(--fontColor);
+    background: var(--pink);
+    color: var(--black);
     font-family: helvetica;
+    background-image: url(images/light-theme-bg.png);
 }
 
-li {
-    list-style: circle;
+.column {
+    float: left;
+    width: 50%;
 }
 
-.list {
-    list-style: square;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.light-theme {
-    --bg:var(--green);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
-.dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--purple);
 }
 
-.btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
+.topnav a {
+    float: right;
+    display: block;
+    color: var(--dGreen);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: 1px solid var(--dGreen);
+}
+
+/* changes the colour of nav button on hover*/
+.topnav a:hover {
+    background-color: var(--midGreen) ;
+}
+
+/* changes the colour of nav button when active page*/
+.active {
+    background-color: var(--lGreen);
 }
