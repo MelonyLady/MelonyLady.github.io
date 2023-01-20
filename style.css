@@ -32,6 +32,7 @@ body {
     color: var(--black);
     font-family: helvetica;
     background-image: url(images/light-theme-bg.png);
+    background-size: cover;
 }
 
 .column {
