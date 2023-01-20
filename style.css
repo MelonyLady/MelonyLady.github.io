@@ -30,7 +30,7 @@
 }
 
 
-/* next 2  control background and text styles*/
+/* next 2  control background and text styles */
 body {
     background: var(--pink);
     color: var(--black);
@@ -45,7 +45,7 @@ body {
     color: var(--black);
 }
 
-/* next 3 creates 2 column view with responsiveness to screen size*/
+/* next 3 creates 2 column view with responsiveness to screen size */
 .column {
     float: left;
     width: 50%;
@@ -64,7 +64,7 @@ body {
 }
 
 
-/* Next 4 control the nav bar settings*/
+/* Next 4 control the nav bar settings */
 .topnav {
     overflow: hidden;
     background-color: var(--midGreen);
@@ -80,12 +80,12 @@ body {
     border-left: 1px solid var(--dGreen);
 }
 
-/* changes the colour of nav button on hover*/
+/* changes the colour of nav button on hover */
 .topnav a:hover {
     background-color: var(--hoverGreen) ;
 }
 
-/* changes the colour of nav button when active page*/
+/* changes the colour of nav button when active page */
 .active {
     background-color: var(--lGreen);
 }
