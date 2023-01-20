@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
 
 :root {
     --pink: #e9c6d8;
@@ -11,6 +12,7 @@
     --hoverGreen: #67a681;
 }
 
+/* Next 3 are about the top bar */
 .header {
     background-color: var(--purple);
     text-align: left;
@@ -18,7 +20,7 @@
     color: var(--dGreen);
 }
 .header h1{
-    font-size: 60px;
+    font-size: 55px;
     font-family: satisfy;
     
 }
@@ -27,13 +29,23 @@
     float: left;
 }
 
+
+/* next 2  control background and text styles */
 body {
     background: var(--pink);
     color: var(--black);
-    font-family: helvetica;
+    font-family: 'Open Sans', sans-serif;
     background-image: url(images/light-theme-bg.png);
+    background-size: cover;
+    font-size: 16px;
 }
 
+.h2 {
+    font-family: 'Merriweather';
+    color: var(--black);
+}
+
+/* next 3 creates 2 column view with responsiveness to screen size */
 .column {
     float: left;
     width: 50%;
@@ -52,9 +64,10 @@ body {
 }
 
 
+/* Next 4 control the nav bar settings */
 .topnav {
     overflow: hidden;
-    background-color: var(--purple);
+    background-color: var(--midGreen);
 }
 
 .topnav a {
@@ -67,12 +80,26 @@ body {
     border-left: 1px solid var(--dGreen);
 }
 
-/* changes the colour of nav button on hover*/
+/* changes the colour of nav button on hover */
 .topnav a:hover {
-    background-color: var(--midGreen) ;
+    background-color: var(--hoverGreen) ;
 }
 
-/* changes the colour of nav button when active page*/
+/* changes the colour of nav button when active page */
 .active {
     background-color: var(--lGreen);
+}
+
+
+/* Next 2 control lists bullets are now green stars */
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2605";
+    color: var(--dGreen);
+    display: inline-block;
+    margin-left: -1em;
 }
