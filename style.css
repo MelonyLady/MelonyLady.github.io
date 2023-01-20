@@ -89,3 +89,17 @@ body {
 .active {
     background-color: var(--lGreen);
 }
+
+
+/* Next 2 control lists bullets are now green stars */
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2605";
+    color: var(--dGreen);
+    display: inline-block;
+    margin-left: -1em;
+}
