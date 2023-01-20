@@ -12,6 +12,7 @@
     --hoverGreen: #67a681;
 }
 
+/* Next 3 are about the top bar */
 .header {
     background-color: var(--purple);
     text-align: left;
@@ -28,6 +29,8 @@
     float: left;
 }
 
+
+/* next 2  control background and text styles*/
 body {
     background: var(--pink);
     color: var(--black);
@@ -42,6 +45,7 @@ body {
     color: var(--black);
 }
 
+/* next 3 creates 2 column view with responsiveness to screen size*/
 .column {
     float: left;
     width: 50%;
@@ -60,6 +64,7 @@ body {
 }
 
 
+/* Next 4 control the nav bar settings*/
 .topnav {
     overflow: hidden;
     background-color: var(--midGreen);
