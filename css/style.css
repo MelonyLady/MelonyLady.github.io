@@ -16,13 +16,14 @@
 .header {
     background-color: var(--purple);
     text-align: left;
-    padding: 10px;
-    color: var(--dGreen);
+    padding: 10px, 10px, 10px, 10px;
+    
 }
 .header h1{
-    font-size: 55px;
+    font-size: 35px;
     font-family: satisfy;
-    
+    float: left;
+    color: var(--dGreen);
 }
 
 .site-identity {
@@ -68,6 +69,9 @@ body {
 .topnav {
     overflow: hidden;
     background-color: var(--midGreen);
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .topnav a {
