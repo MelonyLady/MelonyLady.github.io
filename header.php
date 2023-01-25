@@ -21,7 +21,7 @@
                     CV
                 </a>
     
-                <a href="portfolio.html" class="nav_link">
+                <a href="portfolio.php" class="nav_link">
                     Portfolio
                 </a> 
     
