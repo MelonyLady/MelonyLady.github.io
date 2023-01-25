@@ -22,6 +22,13 @@ session_start();
 
     <!-- start of base -->
 
+    <!-- end of base -->
+    <?php
+    require_once("footer.php");
+    ?>
+
+    <!-- start of base -->
+
 
     </body>
 </html>
