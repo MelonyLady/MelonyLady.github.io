@@ -25,7 +25,7 @@
                     Portfolio
                 </a> 
     
-                <a href="index.html" class="nav_link">
+                <a href="index.php" class="nav_link">
                     Home
                 </a>
 
