@@ -28,10 +28,6 @@
                 <a href="index.php" class="nav_link">
                     Home
                 </a>
-
-                <a href="base.php" class="nav_link">
-                    base
-                </a>
     
             </nav>
         </div>
