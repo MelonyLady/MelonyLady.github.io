@@ -13,12 +13,12 @@ session_start();
     <title>CV</title>
 </head>
 <body>
-   <!-- end of base -->
-   <?php
+    <!-- end of base -->
+    <?php
     require_once("header.php");
     ?>
     <!-- start of base -->
-    
+
         <div class="row">
             <div class="column">
                 <h2>My CV will be here for viewing in the future!</h2>
@@ -34,3 +34,5 @@ session_start();
         <noscript>Please enable JavaScript to view the full site.</noscript>
 
 
+    </body>
+</html>
