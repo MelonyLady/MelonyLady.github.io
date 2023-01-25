@@ -13,7 +13,7 @@
 
             <nav class="topnav">
             
-                <a href="content.html" class="nav_link">
+                <a href="content.php" class="nav_link">
                     Content
                 </a>
     
