@@ -19,16 +19,16 @@ session_start();
     <?php
     require_once("header.php");
     ?>
-
     <!-- start of base -->
+
 
     <!-- end of base -->
     <?php
     require_once("footer.php");
     ?>
-
     <!-- start of base -->
 
 
     </body>
 </html>
+<!-- end of html -->
