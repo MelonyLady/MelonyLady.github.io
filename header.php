@@ -17,7 +17,7 @@
                     Content
                 </a>
     
-                <a href="cv.html" class="nav_link">
+                <a href="cv.php" class="nav_link">
                     CV
                 </a>
     
