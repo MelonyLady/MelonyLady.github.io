@@ -46,6 +46,12 @@ body {
     color: var(--black);
 }
 
+.h3 {
+    font-family: 'Merriweather';
+    color: var(--black);
+    font-size: 16px;
+}
+
 /* next 3 creates 2 column view with responsiveness to screen size */
 .column {
     float: left;
@@ -125,7 +131,7 @@ ul li::before {
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 2px 2px;
     border-radius: 50%;
 }
 
@@ -134,11 +140,11 @@ ul li::before {
 }
 
 .fa-linkedin {
-    background: #007bb5;
-    color:white;
+    background: var(--lGreen);
+    color:var(--dGreen);
 }
 
 .fa-github {
-    background: black;
-    color: white;
+    background: var(--lGreen);
+    color: var(--dGreen);
 }
