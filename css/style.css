@@ -46,10 +46,17 @@ body {
     color: var(--black);
 }
 
+.h3 {
+    font-family: 'Merriweather';
+    color: var(--black);
+    font-size: 16px;
+}
+
 /* next 3 creates 2 column view with responsiveness to screen size */
 .column {
     float: left;
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
 }
 
 .row:after {
@@ -106,4 +113,38 @@ ul li::before {
     color: var(--dGreen);
     display: inline-block;
     margin-left: -1em;
+}
+
+/*  centers the obect/div on the webpage */
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* Social Media buttons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: var(--lGreen);
+    color:var(--dGreen);
+}
+
+.fa-github {
+    background: var(--lGreen);
+    color: var(--dGreen);
 }
