@@ -49,7 +49,8 @@ body {
 /* next 3 creates 2 column view with responsiveness to screen size */
 .column {
     float: left;
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
 }
 
 .row:after {
